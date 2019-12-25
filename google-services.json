@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "896347203281",
+    "firebase_url": "https://ionic-fcm-9e5cb.firebaseio.com",
+    "project_id": "ionic-fcm-9e5cb",
+    "storage_bucket": "ionic-fcm-9e5cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896347203281:android:11f69fa5c3e71c1ca607f0",
+        "android_client_info": {
+          "package_name": "io.codewithabdul.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896347203281-9m7iqrjf71sjj2pbt9dr4bjgvu22j840.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDihcHFH5KzXKsfscyKGyshEv1SRW3POEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896347203281-9m7iqrjf71sjj2pbt9dr4bjgvu22j840.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "896347203281-u2va29qjvl70ssigfcsrcplvnjafb5bu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.codewithabdul.fcm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

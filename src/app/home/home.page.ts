@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  from: string = ''
+
+  constructor(
+    private route: ActivatedRoute
+  ) {
+    this.from = this.route.snapshot.params['from']
+  }
 
 }
